@@ -1,0 +1,442 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.site-header {
+    background: linear-gradient(135deg, #607c3c, #3f5e2b);
+    color: #fff;
+}
+
+.header-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-image {
+    width: 60px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.btn-getStarted {
+    background-color: #809c13;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.btn-getStarted:hover {
+    background-color: #6b8510;
+    transform: translateY(-1px);
+}
+
+/* Hero */
+
+.home {
+    background: linear-gradient(135deg, #2f3e1f, #3f5e2b);
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    max-width: 50%;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.btn-learnMore {
+    margin-top: 20px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background: #809c13;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-learnMore:hover {
+    background: #64790f;
+}
+
+.farmer-visual img {
+    width: 100%;
+    max-width: 430px;
+}
+
+/* Features */
+
+.features {
+    background: linear-gradient(-135deg, #ececa3, #ffffff);
+    padding: 60px 0;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* How it Works */
+
+.howItWorks {
+    background: linear-gradient(135deg, #fafad7, #ffffff);
+    padding: 60px 0;
+}
+
+.howItWorks h2,
+.howItWorks > p {
+    text-align: center;
+}
+
+.howItWorks-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 30px auto 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.step-item {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.step-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Benefits */
+
+.benefits {
+    background: linear-gradient(-135deg, #ececa3, #ffffff);
+    padding: 60px 0;
+}
+
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.benefits-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.benefit-item {
+    flex: 1;
+    min-width: 250px;
+    max-width: 280px;
+    text-align: center;
+}
+
+.benefit-item h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* WHO CAN USE */
+
+.who-can-use {
+    background: #ffffff;
+    text-align: center;
+    padding: 60px 0 80px;
+}
+
+.who-can-use h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.who-can-use p {
+    width: 70%;
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* CTA */
+
+.cta {
+    background: linear-gradient(135deg, #2f3e1f, #3f5e2b);
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cta-primary,
+.cta-secondary {
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cta-primary {
+    background: #809c13;
+    border: none;
+    color: white;
+}
+
+.cta-primary:hover {
+    background: #6b8510;
+}
+
+.cta-secondary {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+.cta-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* FOOTER */
+
+.footer {
+    background: linear-gradient(135deg, #607c3c, #3f5e2b);
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .header-container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .logo-container {
+        justify-content: center;
+    }
+
+    .navigation {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .navigation a {
+        margin: 0 6px;
+        font-size: 15px;
+    }
+
+    .navigation .btn-getStarted {
+        padding: 8px 18px;
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    /* Hero */
+    .home {
+        min-height: auto;
+        padding: 40px 0;
+    }
+
+    .home-container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .hero {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .farmer-visual {
+        max-width: 80%;
+        justify-content: center;
+    }
+
+    .farmer-visual img {
+        max-width: 100%;
+    }
+
+    /* Features / How It Works / Benefits */
+    .features-container,
+    .howItWorks-container,
+    .benefits-container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item,
+    .step-item,
+    .benefit-item {
+        max-width: 320px;
+    }
+
+    /* Who Can Use */
+    .who-can-use p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    /* CTA */
+    .cta {
+        padding: 60px 0;
+    }
+
+    .cta h2 {
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    .cta p {
+        font-size: 16px;
+        width: 90%;
+        max-width: 420px;
+        margin: 10px auto 30px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cta-primary,
+    .cta-secondary {
+        width: 90%;
+        max-width: 280px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer-links a {
+        display: inline-block;
+        margin: 5px 8px;
+        font-size: 14px;
+    }
+}
