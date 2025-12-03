@@ -259,6 +259,13 @@ body {
     margin-bottom: 20px;
 }
 
+.cta p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
 .cta-buttons {
     display: flex;
     justify-content: center;
@@ -402,7 +409,7 @@ body {
 
     /* CTA */
     .cta {
-        padding: 60px 0;
+        padding: 60px 0 80px;
     }
 
     .cta h2 {
